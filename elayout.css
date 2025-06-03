@@ -53,8 +53,9 @@
       align-items: center;
       padding: 3rem 2rem;
       background: linear-gradient(135deg, #e0f7fa, #ffffff);
-      animation: slideIn 1s ease-in-out;
-      text-align: center;
+	animation: slideIn infinite ease-in-out;
+	animation-direction: alternate;
+        text-align: center;
     }
 
     @media (min-width: 768px) {
